@@ -1,0 +1,98 @@
+.wrap {
+color:white;
+font-weight: bold;
+font-size: 29;
+background-image: url(img/spring.jpg);
+margin: 0 auto;	
+width: 684px;
+height: 720px;
+overflow: auto;
+}
+
+.hex-row {
+    clear: left;
+}
+
+.hex {
+    float: left;
+    margin-bottom: -50px;
+    margin-right: -26px;
+	rgba(102, 204, 102, 0.47);
+}
+
+
+.hex .left {
+    border-bottom: 52px solid transparent;
+    border-right: 30px solid rgba(0, 0, 0, 0.2);
+    border-top: 52px solid transparent;
+    float: left;
+    width: 0;
+}
+.hex:hover .left {
+	border-right: 30px solid rgba(0, 0, 0, 0.3); 
+}
+   
+
+.hex .middle {
+    background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0;
+    float: left;
+    height: 104px;
+    width: 60px;
+}
+.hex:hover .middle {
+    background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+}
+
+.hex .right {
+    border-bottom: 52px solid transparent;
+    border-left: 30px solid rgba(0, 0, 0, 0.2);
+    border-top: 52px solid transparent;
+    float: left;
+    width: 0;
+}
+.hex:hover  .right{
+
+    border-left: 30px solid rgba(0, 0, 0, 0.3);
+
+}
+.hex.even {
+    margin-top: 53px;
+}
+
+.hide.even {
+    margin-top: 53px;
+}
+
+.hide {
+    float: left;
+    margin-bottom: -50px;
+    margin-right: -26px;
+}
+
+.hide .right {
+    border-bottom: 52px solid transparent;
+    border-left: 30px solid  transparent;
+    border-top: 52px solid transparent;
+    float: left;
+    width: 0;
+}
+
+.hide .middle, .mp, .hp {
+    float: left;
+    height: 104px;
+    width: 60px;
+}
+
+.hide .left {
+    border-bottom: 52px solid transparent;
+    border-right: 30px solid  transparent;
+    border-top: 52px solid transparent;
+    float: left;
+    width: 0;
+}
+
+.mp { background: #4c4cd0;}
+.hp { background: #e54646;}
+
+
+
