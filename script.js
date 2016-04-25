@@ -11,7 +11,6 @@ function makeVIrtualMap() {
 	idInDom: '',
 	x:'',
 	y:'',
-		
 	};
 }
 
