@@ -9,8 +9,10 @@ HasItems(hero); // confirmItems() destroyItem('head','body', ~~) addItem('where,
 function makeVIrtualMap() {
 	var mappart = {
 	idInDom: '',
-	x:'',
-	y:'',
+	x: 0,
+	y: 0,
+	objIn: {},
+	secondaryObjIn: {},
 	};
 }
 
