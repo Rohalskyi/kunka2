@@ -8,8 +8,10 @@ HasItems(hero); // confirmItems() destroyItem('head','body', ~~) addItem('where,
 
 function makeVIrtualMap() {
 	var mappart = {
-	walkAble: true;
-	idInDOM: '';	
-	};
+	walkAble: true,
+	idInDOM: '',
+	x: 0,
+	y: 0
+	}
 }
 
