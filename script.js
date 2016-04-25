@@ -11,7 +11,8 @@ function makeVIrtualMap() {
 	walkAble: true,
 	idInDOM: '',
 	x: 0,
-	y: 0
+	y: 0,
+	oblIn: {}
 	}
 }
 
